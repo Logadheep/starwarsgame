@@ -82,6 +82,7 @@ startButton.addEventListener('click', startGame);
 
 function whack(e){
     score++;
+    countdown++;
     this.style.backgroundImage = "url(p2.jpg)";
     this.style.pointerEvents = 'none';
     setTimeout(() => {
